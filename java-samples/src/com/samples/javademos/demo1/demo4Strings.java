@@ -11,11 +11,28 @@ public class demo4Strings {
 		int myint = Integer.parseInt(s3);
 		int x = 10;
 		
-		System.out.println(myint);
+		//System.out.println(myint);
 		
 		s2 = s1+x;
 		System.out.println(s2);
+		function1();
 		
 	}
 	
+	static void function1()
+	{
+		String s4 ="43x";
+		try {
+			int myint = Integer.parseInt(s4);
+		}
+		catch(NumberFormatException nfe)
+		{
+			System.out.println("Number exception occurred");
+			throw nfe;
+		}
+		catch(Exception ex)
+		{
+			System.out.println("Failed to read user input" + ex.getMessage());
+		}
+	}
 }

@@ -8,7 +8,7 @@ public class demo13Input {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter name:");
 		String name = sc.nextLine();
-		System.out.println("name entered:" + name);
+		System.out.println("name entered: " + name);
 		sc.close();
 	}
 }
