@@ -7,6 +7,8 @@ public class demo14Access {
 	public static void main(String[] args) {
 		
 		Car mycar = new Car();
+		mycar.setColour("Yellow");
+		System.out.println(mycar.getColour());
 	}
 
 }

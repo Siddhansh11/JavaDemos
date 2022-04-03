@@ -43,6 +43,10 @@ public class Car {
 		return "Car [fuelType=" + fuelType + ", noofWheels=" + noofWheels + ", gearType=" + gearType + ", colour="
 				+ colour + "]";
 	}
+
+	
+	
+	
 	
 	
 }

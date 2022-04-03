@@ -16,6 +16,8 @@ public class demo02Account {
 		System.out.println(johnsAccount);
 		
 		Account.CustomerAddress caddress = myaccount.new CustomerAddress();
+		
+		caddress.disp();
 	}
 
 }

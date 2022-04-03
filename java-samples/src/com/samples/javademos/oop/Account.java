@@ -79,6 +79,11 @@ public class Account {
 		String streetName;
 		String city;
 		String state;
+		
+		public void disp()
+		{
+			System.out.println("hello");
+		}
 	}
 	
 

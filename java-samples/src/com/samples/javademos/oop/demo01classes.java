@@ -13,15 +13,16 @@ public class demo01classes {
 		hondaCity.setFuelType("Petrol");
 		hondaCity.setGearType("Automatic");
 		hondaCity.setNoofWheels(5);
-		System.out.println("The colour of the car: " + hondaCity);
+		System.out.println("The colour of the car: " + hondaCity.getColour());
+//		System.out.println(hondaCity);
 		System.out.println(hondaCity.someProperty);
 		
 		Car marutiSwift = new Car();
-		marutiSwift.setColour("White");
+		marutiSwift.setColour("RED");
 		marutiSwift.setFuelType("Petrol");
 		marutiSwift.setGearType("Automatic");
-		marutiSwift.setNoofWheels(5);
-		System.out.println(marutiSwift);
+		marutiSwift.setNoofWheels(6);
+//		System.out.println(marutiSwift);
 		System.out.println(marutiSwift.someProperty);
 	
 		
